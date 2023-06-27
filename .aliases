@@ -1,5 +1,3 @@
-export LC_ALL=en_US.UTF-8
-
 # aliases
 alias yum='brew'
 alias ll='ls -lisah'
@@ -13,7 +11,7 @@ alias sha='shasum -a 256 '
 alias psg='ps auwx | grep '
 
 # File system
-alias godevelop='cd /Users/mkoese/develop'
+alias gorepo='cd /Users/$HOME/Repos'
 alias df='df -h'
 alias ..='cd ..'
 alias ...='cd ../../../'
@@ -28,4 +26,7 @@ alias ping='ping -c 5'
 alias speed='speedtest-cli --server 3026 --simple'
 alias ipe='curl ifconfig.co'
 alias ipi='ipconfig getifaddr en0'
-[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+# Kubernetes
+alias kubectl='oc'
+alias k-clean-namespace='kubectl delete pods --field-selector=status.phase!=Running'
