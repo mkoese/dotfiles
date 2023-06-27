@@ -24,7 +24,7 @@ alias convertunixtime='date -j -r'
 
 # Network aliases
 alias ping='ping -c 5'
-alias speed='speedtest-cli --server 3026 --simple'
+alias speed='speedtest-cli --simple'
 alias ipe='curl ifconfig.co'
 alias ipi='ipconfig getifaddr en0'
 
