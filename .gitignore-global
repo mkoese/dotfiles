@@ -47,6 +47,7 @@ nb-configuration.xml
 # Developer test files and dirs
 *tmp*
 *.log
+*.log.*
 # Various build tools
 ## Maven
 target/
