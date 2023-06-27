@@ -11,11 +11,12 @@ alias sha='shasum -a 256 '
 alias psg='ps auwx | grep '
 
 # File system
-alias gorepo='cd /Users/$HOME/Repos'
+alias gorepos='cd /Users/$HOME/Repos'
 alias df='df -h'
-alias ..='cd ..'
-alias ...='cd ../../../'
-alias ....='cd ../../../../'
+alias 1cd='cd ..'
+alias 2cd='cd ../../'
+alias 3cd='cd ../../../'
+alias 4cd='cd ../../../../'
 
 # Time
 alias getunixtime='date +%s'
@@ -27,6 +28,10 @@ alias speed='speedtest-cli --server 3026 --simple'
 alias ipe='curl ifconfig.co'
 alias ipi='ipconfig getifaddr en0'
 
+# macOS
+alias ls='/opt/homebrew/bin/gls -h --group-directories-first --color=auto'
+
 # Kubernetes
+alias k='oc'
 alias kubectl='oc'
 alias k-clean-namespace='kubectl delete pods --field-selector=status.phase!=Running'
