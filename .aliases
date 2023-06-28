@@ -1,5 +1,4 @@
 # aliases
-alias yum='brew'
 alias ll='ls -lisah'
 alias getpass='openssl rand -base64 20'
 alias c='clear'
@@ -28,8 +27,12 @@ alias speed='speedtest-cli --simple'
 alias ipe='curl ifconfig.co'
 alias ipi='ipconfig getifaddr en0'
 
+# Fedora
+# alias yum='dnf'
+
 # macOS
 alias ls='/opt/homebrew/bin/gls -h --group-directories-first --color=auto'
+alias yum='brew'
 
 # Kubernetes
 alias k='oc'
