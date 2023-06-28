@@ -18,7 +18,7 @@ git config --global core.excludesfile $HOME/Repos/github.com/mkoese/dotfiles/.gi
 
 ```shell
 # Linux
-ln -s .config/Code/User/settings.json $HOME/.config/Code/User/settings.json
+ln -s $(pwd)/.config/Code/User/settings.json $HOME/.config/Code/User/settings.json
 # macOS
-ln -s .config/Code/User/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
+ln -s $(pwd)/.config/Code/User/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 ```

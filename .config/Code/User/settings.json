@@ -3,7 +3,7 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "editor.fontFamily": "JetBrains Mono",
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": false,
     "workbench.colorTheme": "One Monokai",
     "workbench.iconTheme": "dot"
 }
