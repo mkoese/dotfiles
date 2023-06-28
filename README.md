@@ -22,3 +22,10 @@ ln -s $(pwd)/.config/Code/User/settings.json $HOME/.config/Code/User/settings.js
 # macOS
 ln -s $(pwd)/.config/Code/User/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 ```
+
+Install VSCode extensions
+```shell
+code --install-extension PascalReitermann93.vscode-yaml-sort
+code --install-extension redhat.java
+code --install-extension redhat.vscode-kaoto
+```

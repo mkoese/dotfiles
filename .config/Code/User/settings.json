@@ -1,4 +1,5 @@
 {
+    "telemetry.telemetryLevel": "off",
     "editor.copyWithSyntaxHighlighting": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
