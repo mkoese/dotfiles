@@ -6,5 +6,8 @@
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": false,
     "workbench.colorTheme": "One Monokai",
-    "workbench.iconTheme": "dot"
+    "workbench.iconTheme": "dot",
+    "terminal.integrated.copyOnSelection": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "extensions.ignoreRecommendations": true
 }
